@@ -22,15 +22,17 @@
 //   );
 // }
 
-import React from 'react';
-import { FaThumbsUp, FaThumbsDown, FaEdit } from 'react-icons/fa';
+import React from "react";
+import { FaThumbsUp, FaThumbsDown, FaEdit } from "react-icons/fa";
 
 export default function Message({ message }) {
-  const isBot = message.sender === 'bot';
-  const avatarSrc = isBot ? '/Frame.jpg' : '/userProfile.jpg';
+  const isBot = message.sender === "bot";
+  const avatarSrc = isBot ? "/Frame.jpg" : "/userProfile.jpg";
 
   return (
-    <div className={`flex items-start space-x-3 p-4 ${isBot ? 'bg-white' : ''}`}>
+    <div
+      className={`flex items-start space-x-3 p-4 ${isBot ? "bg-white" : ""}`}
+    >
       {/* Avatar */}
       <img
         src={avatarSrc}
@@ -51,9 +53,9 @@ export default function Message({ message }) {
             <>
               {/* <FaThumbsUp className=" cursor-pointer hover:text-green-500" /> */}
 
-            <img src="/like.svg" alt="" />
+              <img src="/like.svg" alt="" />
               {/* <FaThumbsDown className="text-gray-500 cursor-pointer hover:text-red-500" /> */}
-            <img src="/dislike.svg" alt="" />
+              <img src="/dislike.svg" alt="" />
             </>
           ) : (
             // Edit icon for user messages
