@@ -1,10 +1,10 @@
 import React from 'react';
-import ChatBot from './Components/ChatBot';
+import LandingPage from './Pages/LandingPage';
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <ChatBot />
+      <LandingPage />
     </div>
   );
 }

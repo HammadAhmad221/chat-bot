@@ -17,7 +17,7 @@ export default function TopBar() {
         {/* Delete Icon */}
         <div className="h-10 w-10 bg-gray-100 rounded-full flex items-center justify-center">
           <FiTrash2 className="w-6 h-6 text-gray-600 hover:text-red-600 cursor-pointer" />
-        </div>{" "}
+        </div>
         {/* Options Icon (Three Dots) */}
         <div className="h-10 w-10 bg-gray-100 rounded-full flex items-center justify-center">
           <FiMoreHorizontal className="w-6 h-6 text-gray-600 hover:text-gray-800 cursor-pointer" />

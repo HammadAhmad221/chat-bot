@@ -22,7 +22,6 @@ export default function InputArea({ onSendMessage }) {
           placeholder="Type your question here..."
           className="flex-1 p-2 focus:outline-none focus:ring-none bg-gray-200"
         />
-        {/* <img src="/send.svg" alt="" /> */}
         <img
           src="/send.svg"
           alt="Send"
