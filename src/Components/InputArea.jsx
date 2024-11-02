@@ -13,7 +13,7 @@ export default function InputArea({ onSendMessage }) {
 
   return (
     <form onSubmit={handleSubmit} className="p-4">
-      <div className="bg-gray-200 flex items-center p-2 gap-4 rounded-md">
+      <div className="bg-gray-200 flex items-center p-2 lg:gap-4 sm:gap-0 rounded-md">
         <img src="/image.svg" alt="" />
         <input
           type="text"

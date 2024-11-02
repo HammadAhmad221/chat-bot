@@ -9,14 +9,14 @@ const HeroSection = () => {
         backgroundImage: `url('/Background.svg')`
       }}
     >
-      <h1 className="text-8xl md:text-6xl font-bold mb-6 w-[50%]">
+      <h1 className="lg:text-8xl sm:text-6xl font-bold mb-6 w-[50%]">
         TREE CARE, REVOLUTIONIZED.
       </h1>
-      <div className="flex space-x-4">
+      <div className="flex gap-4 flex-wrap">
         <button className="bg-green-600 px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-700">
           Get Tree Care Advice Now
         </button>
-        <button className="bg-white text-green-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-100">
+        <button className="bg-white text-[#0B3D2C] px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-100">
           Connect with an Arborist
         </button>
       </div>

@@ -31,7 +31,7 @@ const ServicesSection = () => {
   return (
     <section className="bg-[#F6F3EE] py-8 px-4 md:px-16">
       <div className="bg-white rounded-lg shadow-lg p-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-24">
           {services.map((service, index) => (
             <div key={index} className="text-center relative">
               <img
@@ -42,7 +42,7 @@ const ServicesSection = () => {
               <img
                 src={service.icon}
                 alt={`${service.title} icon`}
-                className="mx-auto w-20 h-20 absolute z-10 top-[55%] left-[35%]"
+                className="mx-auto w-20 h-20 absolute z-10 top-[60%] left-[35%]"
               />
               <h3 className="font-bold text-lg text-[#0B3D2C]">{service.title}</h3>
               <p className="text-[#777777] text-sm mt-2">{service.description}</p>
@@ -50,8 +50,8 @@ const ServicesSection = () => {
           ))}
         </div>
         
-        <div className="bg-[#0B3D2C] text-white p-6 rounded-b-lg mt-6 text-center">
-          <h3 className="font-bold text-lg mb-2">
+        <div className="bg-[#0B3D2C] text-white p-6 rounded-b-lg mt-6 flex flex-wrap justify-between">
+          <h3 className="font-bold text-2xl mb-2 w-[50%]">
             Harness the power of AI to get instant advice for all of your tree care needs.
           </h3>
           <button className="bg-white text-[#0B3D2C] font-semibold py-2 px-4 rounded-full mt-4 hover:bg-gray-200">

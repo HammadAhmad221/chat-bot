@@ -15,7 +15,7 @@ const Header = () => {
         <a href="#blogs" className="hover:text-green-300">Blogs</a>
         <a href="#contact" className="hover:text-green-300">Contact</a>
       </nav>
-      <button className="text-white bg-green-900 px-4 py-2 rounded-full font-bold">
+      <button className="text-white bg-[#0B3D2C] px-4 py-2 rounded-full font-bold">
         Get Started
       </button>
     </header>

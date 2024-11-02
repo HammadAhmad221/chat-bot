@@ -6,6 +6,9 @@ import AboutUs from "../Components/AboutUs";
 import ChatBot from "../Components/ChatBot";
 import ServicesSection from "../Components/ServicesSection";
 import VideoSection from "../Components/VideoSection";
+import Testimonials from "../Components/Testimonials";
+import FaqSection from "../Components/FAQ";
+import Footer from "../Components/Footer";
 
 const LandingPage = () => {
   return (
@@ -30,7 +33,12 @@ const LandingPage = () => {
         <div className="w-[80%] mx-auto">
       <VideoSection/>
         </div>
+        <div className="bg-[#F6F3EE] py-20 px-16">
+      <Testimonials/>
+        </div>
+        <FaqSection/>
       </div>
+      <Footer/>
     </div>
   );
 };
