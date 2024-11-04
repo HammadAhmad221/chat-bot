@@ -4,12 +4,12 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section
-      className="h-screen bg-cover bg-center flex flex-col justify-center gap-20 text-white p-28"
+      className="h-screen bg-cover bg-center flex flex-col justify-center gap-20 text-white lg:p-28 p-2"
       style={{
         backgroundImage: `url('/Background.svg')`
       }}
     >
-      <h1 className="lg:text-8xl sm:text-6xl font-bold mb-6 w-[50%]">
+      <h1 className="lg:text-8xl md:text-7xl sm:text-5xl text-3xl font-bold mb-6 sm:w-[80%] lg:w-[50%]">
         TREE CARE, REVOLUTIONIZED.
       </h1>
       <div className="flex gap-4 flex-wrap">

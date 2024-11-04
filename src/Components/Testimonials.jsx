@@ -33,7 +33,7 @@ const Testimonials = () => {
             className="bg-white p-6 rounded-lg shadow-md text-center"
           >
             <div className="text-green-700 text-3xl mb-4">“</div>
-            <p className="text-lg font-semibold mb-4 text-[#0B3D2C] h-44">{testimonial.quote}</p>
+            <p className="text-lg font-semibold mb-4 text-[#0B3D2C]">{testimonial.quote}</p>
             <p className="font-bold text-[#0B3D2C]">{testimonial.position}</p>
             <p className="text-green-700">{testimonial.name}</p>
           </div>

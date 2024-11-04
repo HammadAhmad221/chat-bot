@@ -21,7 +21,7 @@ const Footer = () => {
         {/* Main Pages Section */}
         <div>
           <h2 className="font-bold mb-4">MAIN PAGES</h2>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-md">
             <li><a href="#home" className="hover:underline">Home</a></li>
             <li><a href="#how-it-works" className="hover:underline">How It Works</a></li>
             <li><a href="#services" className="hover:underline">Services</a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
         {/* Our Services Section */}
         <div>
           <h2 className="font-bold mb-4">OUR SERVICES</h2>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-md">
             <li><a href="#tree-care-advice" className="hover:underline">Tree Care Advice</a></li>
             <li><a href="#diagnostics" className="hover:underline">Diagnostics</a></li>
             <li><a href="#dynamic-pricing" className="hover:underline">Dynamic Pricing</a></li>
@@ -44,10 +44,10 @@ const Footer = () => {
         {/* Get In Touch Section */}
         <div>
           <h2 className="font-bold mb-4">GET IN TOUCH</h2>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-md">
             <li><i className="fas fa-phone-alt mr-2"></i> 775-240-7662</li>
             <li><i className="fas fa-envelope mr-2"></i> tim@yourtreeguy.com</li>
-            <li><i className="fas fa-map-marker-alt mr-2"></i> Tahoe Forestry Consulting LLC</li>
+            <li><i className="fas fa-map-marker-alt mr-2"></i> Tahoe Forestry Consulting &nbsp; LLC</li>
           </ul>
         </div>
       </div>

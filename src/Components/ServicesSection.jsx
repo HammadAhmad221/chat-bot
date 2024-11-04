@@ -54,7 +54,7 @@ const ServicesSection = () => {
           <h3 className="font-bold text-2xl mb-2 w-[50%]">
             Harness the power of AI to get instant advice for all of your tree care needs.
           </h3>
-          <button className="bg-white text-[#0B3D2C] font-semibold py-2 px-4 rounded-full mt-4 hover:bg-gray-200">
+          <button className="bg-white text-[#0B3D2C] font-semibold py-2 px-4 rounded-3xl my-auto mt-4 hover:bg-gray-200">
             Start Chatting
           </button>
         </div>
